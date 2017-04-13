@@ -129,7 +129,7 @@ boolean reconnect() {
     // and set username and password at the program beginning
     // if (client.connect("433toMQTTto433")) {
     // Once connected, publish an announcement...
-      client.publish("/ccxx.72@gmail.com/outTopic","hello world");
+      client.publish("/outTopic","hello world");
       trc("connected");
       //Subscribing to topic(s)
       subscribing(subjectMQTTtoX);
